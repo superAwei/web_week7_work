@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>第一週個人履歷版型</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="personal container"  data-aos="fade-up">
+           <h1>Joanne<br>
+            Chen
+            </h1>
+            <hr>
+            <img src="img/photo.png" alt="">
+        </div>
+        <div class="profile container">
+           <h2 class="title" data-aos="fade-left">個人資料<span class="titlemark">PROFILE</span></h2>
+           <hr>
+           <ul class="profile-info" data-aos="fade-left">
+               <li>陳久安 Joanne Chen</li>
+               <li>1997-</li>
+               <li class="profile-skill">應屆畢業生／接案設計師／UI 設計實習生</li>
+               <li>UI 設計修行中／立志當斜槓青年</li>
+               <li>獨立接案，內容涵蓋： </li>
+               <li>品牌規劃、視覺設計、編輯設計、標準字、物件及印刷品設計等。</li>
+           </ul>
+        </div>
+        <div class="edu container" data-aos="fade-left">
+           <h2 class="title">學歷<span  class="titlemark">EDUCATION</span></h2>
+           <hr>
+           <ul>
+               <li><p>國立六角師範大學 視覺設計學系 學士學位 | 2016－2020</p></li>
+               <li><p>國立六腳高級中學 美術班 | 2013－2016</p></li>
+           </ul>
+        </div>
+        <div class="skill">
+            <div class="skill-inner  container"  data-aos="zoom-in" data-aos-offset="120"
+            data-aos-delay="200">
+                <h2 class="title">技能<span>SKILLS</span></h2>
+                <hr>
+                <ul >
+                    <li>Adobe Photoshop</li>
+                    <li>Adobe Illustrator</li>
+                    <li>Adobe XD</li>
+                    <li>Adobe Indesign</li>
+                    <li>C4D</li>
+                    <li>Adobe Premiere</li>
+                    <li>語言：中文、英文</li>
+                </ul>
+            </div>
+        </div>
+        <div class="work container">
+            <h2 class="title" data-aos="fade-up"
+            data-aos-duration="3000">工作經驗<span class="titlemark">WORK EXPERIENCE</span></h2>
+            <hr>
+            <ul data-aos="fade-up"
+            data-aos-duration="3000">
+                <li>
+                    <h3>六角學院 視覺設計實習生 | 2019/07－2020/06</h3>
+                    <img src="img/Group 1.svg" alt="六角LOGO">
+                    <p>
+                        在六角學院長達一年的實習中，前期藉由公司課程掌握 HTML, CSS,<br>
+                         Adobe XD，設計給學員使用的名片設計教材，並參與六角週年活動，設<br>
+                         計各式周邊商品及活動網路宣傳圖。後期進入 UI 設計範疇，設計六角共<br>
+                         筆部落格 - W3HexSchool、六角發案服務網介面設計、供給學員的教<br>
+                         案- RWD官方網站設計，並設計各式網頁活動宣傳圖。
+                    </p>   
+                </li>
+                <li>獨立接案 Hao Jun 酒標設計 | 2019</li>
+                <li>獨立接案 Exulans 酒標設計 | 2019</li>
+                <li>獨立接案 桃園平鎮市民健走活動提案 | 2019</li>
+                <li>
+                    <h3>Simtree 興趣咖啡 工讀生 | 2018－2019</h3>
+                    <img src="img/simtree.png" alt="simtree">
+                    <p>擔任外場及吧台服務生，學習咖啡相關知識。</p>
+                </li>
+            </ul>
+        </div>
+        <div class="contact" >
+            <div class="contact-inner container">
+                <h2 data-aos="zoom-in-right">聯絡方式<span>CONTACT METHOD</span></h2>
+                <hr>
+                <ul class="contact-info" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                    <li>Mail：<a href="mailto:xxxd@hexschool.com">xxxd@hexschool.com</a></li>
+                    <li>Phone：<a href="tel:+0910123456">0910123456</a></li>
+                    <li>Kaohsiung, Taiwan</li>
+                    <li>作品連結：https://www.behance.net/xxxdddddd</li>
+                    <li class="social">
+                        <img src="img/facebook.svg" alt="">
+                        <img src="img/instagram-alt.svg" alt="">
+                        <img src="img/line.svg" alt="">
+                    </li>
+                </ul>    
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 使用 AOS 觸發動畫效果必須引入的套件 -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- 程式碼一定要打是啟動 AOS 的意思 -->
+    <script>
+    AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+    </script>
+</body>
+</html>
