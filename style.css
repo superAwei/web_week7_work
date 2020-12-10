@@ -139,3 +139,8 @@ hr{
     margin-left: 24px;
     margin-top: 16px;
 }
+
+/* 避免套用 AOS 動畫會產生跑版請加這個語法 */
+body{
+    overflow-x: hidden;
+}
